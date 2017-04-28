@@ -1,0 +1,15 @@
+$bootstrap-sass-asset-helper: true !default;
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+.app-container {
+  color: $btn-primary-bg;
+  h1 {
+    font-style: italic;
+    text-decoration: underline;
+  }
+}
+
+
+.glyphicon {
+    font-weight: bold;
+}
