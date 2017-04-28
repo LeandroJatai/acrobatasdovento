@@ -89,5 +89,6 @@ ENV/
 .ropeproject
 
 
-.bin
-.idea
+.bin/
+.idea/
+.bin/*
