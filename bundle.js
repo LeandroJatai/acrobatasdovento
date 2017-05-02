@@ -19794,7 +19794,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Home__["a" /* default */], null), document.getElementById('app'));
+//ReactDOM.render(<Home />, document.getElementById('app'));
 
 /***/ }),
 /* 84 */
@@ -19823,11 +19823,11 @@ var Home = function Home() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'h1',
     null,
-    'Hello World!!!!'
+    'Hello World!!!'
   );
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Home);
+/* unused harmony default export */ var _unused_webpack_default_export = (Home);
 
 /***/ }),
 /* 87 */
