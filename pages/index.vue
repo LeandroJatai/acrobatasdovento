@@ -1,16 +1,22 @@
 <template>
   <section class="container-section">
     <div>
-      <social-links/>
+      <br>
+      <b-row>
+          <b-col sm="8" offset-sm="2" lg="6" offset-lg="3">
+            <b-embed type="iframe"
+            aspect="16by9"
+            src="https://www.youtube.com/embed/b5b8eoufcFE"
+            allowfullscreen></b-embed>
+          </b-col>
+      </b-row>
+
       <app-logo/>
-      
+
       <h3 class="subtitle">
         Clube de Paramotor<br>Jataí - Goiás
       </h3>
-      <b-embed type="iframe"
-                 aspect="16by9"
-                 src="https://www.youtube.com/embed/b5b8eoufcFE"
-                 allowfullscreen></b-embed>
+      <social-links/>
     </div>
   </section>
 </template>
@@ -32,14 +38,13 @@ export default {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   text-align: center;
 }
 
-
 .subtitle {
   color: #777;
-  padding: 35px;
+  padding: 20px 5px;
 }
 
 

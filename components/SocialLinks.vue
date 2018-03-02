@@ -11,7 +11,7 @@
 
 <style lang="scss">
 .social-links {
-  margin: 30px;
+  margin-bottom: 25px;
   a {
     padding: 0 30px;
     color: rgba(white, 0.3);
