@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-row>
-        <b-col cols="8" offset="2">
+        <b-col sm="8" offset-sm="2">
           <img src="~/assets/logo_acrobatas_transparente.png"/>
         </b-col>
     </b-row>
